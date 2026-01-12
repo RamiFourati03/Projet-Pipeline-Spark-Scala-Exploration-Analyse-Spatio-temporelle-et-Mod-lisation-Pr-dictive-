@@ -41,4 +41,3 @@ The project follows a modular batch processing architecture:
 
 ## 👥 Auteur
 - **Rami Fourati**
-- **Assistant Antigravity** (Intégration)
