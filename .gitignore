@@ -1,0 +1,35 @@
+# Spark/Hadoop
+*.lzo
+*.snappy
+*.parquet
+checkpoint/
+_SUCCESS
+
+# Data files (Don't push large datasets to GitHub)
+data/*.parquet
+data/*.csv
+data/taxi_cleaned.parquet/
+
+# SBT/Scala
+target/
+project/project/
+project/target/
+.history
+.lib/
+.idea/
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
