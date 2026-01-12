@@ -1,6 +1,20 @@
-# 🚕 NYC Taxi Analysis & Price Predictor
+# 🚕 Analyse Big Data des Trajets de Taxis à New York
 
-An end-to-end Big Data pipeline for NYC Taxi data using Apache Spark (Scala) and Streamlit. Features 7 phases of processing: from ingestion and advanced cleaning to spatio-temporal analysis, ride-sharing simulations, and fare prediction using Random Forest (MLlib).
+## 1. Introduction Générale
+La mobilité urbaine constitue aujourd’hui un enjeu stratégique majeur pour les grandes métropoles, tant du point de vue économique qu’environnemental. La croissance démographique, l’intensification des flux de déplacements et la congestion routière imposent une meilleure compréhension des dynamiques de transport afin d’optimiser l’offre, réduire les coûts et améliorer l’expérience des usagers. 
+
+La ville de New York, avec son réseau dense de taxis jaunes, représente un terrain d’étude particulièrement riche pour l’analyse des déplacements urbains à grande échelle. Chaque jour, plusieurs millions de trajets sont enregistrés, générant un volume massif de données hétérogènes, caractéristique des problématiques Big Data modernes. 
+
+Ce projet propose une analyse Big Data complète des trajets de taxis new-yorkais à l’aide du framework Apache Spark et du langage Scala. L’étude couvre l’ensemble du cycle analytique :
+*   **Ingestion et exploration** des données brutes.
+*   **Nettoyage et transformation** pour garantir la qualité analytique.
+*   **Analyse descriptive et spatio-temporelle** pour identifier les hotspots.
+*   **Étude des comportements de paiement** et des pourboires.
+*   **Simulation de scénarios de ride-sharing** (covoiturage urbain).
+*   **Extension avancée** (détection d’anomalies et feature engineering).
+*   **Modélisation prédictive** par apprentissage automatique (Machine Learning).
+
+Les données analysées proviennent du jeu de données officiel de la NYC Taxi and Limousine Commission (TLC), stockées au format Parquet, garantissant une lecture efficace et une manipulation optimisée de volumes massifs.
 
 ## 📊 Project Architecture
 The project follows a modular batch processing architecture:
